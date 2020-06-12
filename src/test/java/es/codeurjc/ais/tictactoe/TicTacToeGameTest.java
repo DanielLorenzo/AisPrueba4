@@ -92,7 +92,7 @@ public class TicTacToeGameTest {
 	}
 	
 	@Test
-	public void GanaJugador2() {
+	public void testGanaJugador2() {
 		//Comprobamos las conexiones
 		
 				TicTacToeGame tictactoegame = new TicTacToeGame();
@@ -165,7 +165,7 @@ public class TicTacToeGameTest {
 				reset(conexion2);
 	}
 	@Test
-	public void empatan() {
+	public void testEmpatan() {
 		//Comprobamos las conexiones
 		
 				TicTacToeGame tictactoegame = new TicTacToeGame();
