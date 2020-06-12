@@ -14,7 +14,7 @@ private Board board;
 	}
 	
 	@Test
-	public void ganaJugador1() {
+	public void testGanaJugador1() {
 			
 		String jugador1 = "x";
 		String jugador2 = "o";
@@ -35,7 +35,7 @@ private Board board;
 	}
 	
 	@Test
-	public void ganaJugador2() {
+	public void testGanaJugador2() {
 		
 		String jugador1 = "x";
 		String jugador2 = "o";
@@ -56,7 +56,7 @@ private Board board;
 	}
 	
 	@Test
-	public void empatanJugadores() {
+	public void testEmpatanJugadores() {
 		String jugador1 = "x";
 		String jugador2 = "o";
 		
